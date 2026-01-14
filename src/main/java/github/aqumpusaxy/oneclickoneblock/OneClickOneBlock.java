@@ -1,6 +1,5 @@
 package github.aqumpusaxy.oneclickoneblock;
 
-import github.aqumpusaxy.oneclickoneblock.Tags;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
