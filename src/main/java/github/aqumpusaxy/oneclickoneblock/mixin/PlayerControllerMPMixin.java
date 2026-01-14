@@ -1,5 +1,6 @@
 package github.aqumpusaxy.oneclickoneblock.mixin;
 
+import github.aqumpusaxy.oneclickoneblock.OCOBConfig;
 import net.minecraft.client.multiplayer.PlayerControllerMP;
 import net.minecraft.util.math.BlockPos;
 import org.spongepowered.asm.mixin.Mixin;
@@ -18,6 +19,8 @@ public abstract class PlayerControllerMPMixin {
             at = @At("RETURN")
     )
     private void addBlockHitDelay(BlockPos pos, CallbackInfoReturnable<Boolean> cir){
-        this.blockHitDelay = 5;
+        if (OCOBConfig.enable) {
+            this.blockHitDelay = OCOBConfig.delay;
+        }
     }
 }
