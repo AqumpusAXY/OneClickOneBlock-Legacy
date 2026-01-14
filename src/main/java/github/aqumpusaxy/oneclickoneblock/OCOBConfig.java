@@ -9,11 +9,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Config(modid = Tags.MOD_ID)
 @Config.LangKey("config.oneclickoneblock.general")
 public class OCOBConfig {
-    @Config.Comment("Enable Block Hit Delay\ndefault:true")
+    @Config.Comment("Enable Block Hit Delay\nDefault:true")
     @Config.LangKey("config.oneclickoneblock.general.enable")
     public static boolean enable = true;
 
-    @Config.Comment("Block Hit Delay\ndefault:5")
+    @Config.Comment("Block Hit Delay\nDefault:5")
     @Config.LangKey("config.oneclickoneblock.general.delay")
     @Config.RangeInt(min = 0)
     public static int delay = 5;
