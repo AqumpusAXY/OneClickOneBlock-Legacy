@@ -1,0 +1,9 @@
+key.oneclickoneblock.toggle_delay=开关方块破坏延迟
+key.category.oneclickoneblock=点到为止：遗产
+
+message.oneclickoneblock.enable=方块破坏延迟：已启用
+message.oneclickoneblock.disable=方块破坏延迟：已禁用
+
+config.oneclickoneblock.general=常规
+config.oneclickoneblock.general.enable=启用
+config.oneclickoneblock.general.delay=方块破坏延迟

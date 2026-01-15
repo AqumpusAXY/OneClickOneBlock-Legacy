@@ -1,0 +1,9 @@
+key.oneclickoneblock.toggle_delay=Toggle Block Hit Delay
+key.category.oneclickoneblock=One Click One Block Legacy
+
+message.oneclickoneblock.enable=Block Hit Delay: Enabled
+message.oneclickoneblock.disable=Block Hit Delay: Disabled
+
+config.oneclickoneblock.general=General
+config.oneclickoneblock.general.enable=Enable
+config.oneclickoneblock.general.delay=Block Hit Delay
